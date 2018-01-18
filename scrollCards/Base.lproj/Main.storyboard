@@ -1,24 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Light.ttf">
+            <string>Lato-Light</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="scrollCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1DG-pU-doQ">
+                                <rect key="frame" x="0.0" y="51" width="375" height="430"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="430" id="uf1-dv-mZf"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="2" minimumInteritemSpacing="2" id="H4M-rl-d7b" customClass="ScrollCardCollectionViewLayout" customModule="scrollCards" customModuleProvider="target">
+                                    <size key="itemSize" width="250" height="410"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="55" minY="0.0" maxX="55" maxY="0.0"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="sideItemShift">
+                                            <real key="value" value="0.0"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="1R5-On-4NU">
+                                        <rect key="frame" x="55" y="10" width="250" height="410"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="410"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UIK-RS-xhy">
+                                <rect key="frame" x="18" y="526" width="339" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Movie Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zA-i9-5Gm">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="jEK-O1-JeB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWv-jd-DZ0">
+                                        <rect key="frame" x="250" y="0.0" width="89" height="30"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drama | 1 hr 51 min | 10/21/2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMn-ei-viN">
+                                <rect key="frame" x="18" y="563.5" width="339" height="17"/>
+                                <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHe-xG-5cd">
+                                <rect key="frame" x="18" y="588" width="339" height="67.5"/>
+                                <string key="text">Lorem ispum dollar cenit ispum dollar cenit 
+ispum dollar cenit ispum dollar cenit ispum
+dollar cenit ispum dollar cenit ispum dollar 
+cenit </string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UIK-RS-xhy" secondAttribute="trailing" constant="18" id="0aE-Bj-sxD"/>
+                            <constraint firstItem="aHe-xG-5cd" firstAttribute="trailing" secondItem="tMn-ei-viN" secondAttribute="trailing" id="0py-28-5tD"/>
+                            <constraint firstItem="tMn-ei-viN" firstAttribute="top" secondItem="UIK-RS-xhy" secondAttribute="bottom" constant="7.5" id="C0N-lG-92c"/>
+                            <constraint firstItem="tMn-ei-viN" firstAttribute="leading" secondItem="UIK-RS-xhy" secondAttribute="leading" id="EO6-La-vcb"/>
+                            <constraint firstItem="1DG-pU-doQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RAG-Dh-fNX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aHe-xG-5cd" secondAttribute="bottom" constant="11.5" id="cz3-fs-Hx2"/>
+                            <constraint firstItem="UIK-RS-xhy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="1DG-pU-doQ" secondAttribute="bottom" priority="989" constant="5" id="eHJ-FC-DJ1"/>
+                            <constraint firstItem="aHe-xG-5cd" firstAttribute="top" secondItem="tMn-ei-viN" secondAttribute="bottom" constant="7.5" id="gLi-4M-awP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1DG-pU-doQ" secondAttribute="trailing" id="lLn-bl-PZb"/>
+                            <constraint firstItem="1DG-pU-doQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="r9F-3o-5aY"/>
+                            <constraint firstItem="aHe-xG-5cd" firstAttribute="leading" secondItem="tMn-ei-viN" secondAttribute="leading" id="rZV-9R-b1G"/>
+                            <constraint firstItem="UIK-RS-xhy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="yNc-jW-SLh"/>
+                            <constraint firstItem="tMn-ei-viN" firstAttribute="trailing" secondItem="UIK-RS-xhy" secondAttribute="trailing" id="zer-p2-9Ra"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="1DG-pU-doQ" id="rPe-ls-409"/>
+                        <outlet property="movieDescription" destination="aHe-xG-5cd" id="DP0-NI-ADb"/>
+                        <outlet property="movieGenreRuntimeReleaseDate" destination="tMn-ei-viN" id="BY0-dv-wf5"/>
+                        <outlet property="movieName" destination="8zA-i9-5Gm" id="UhT-E7-J3k"/>
+                        <outlet property="movieRating" destination="eWv-jd-DZ0" id="mZ8-UU-k4E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="132.68365817091455"/>
         </scene>
     </scenes>
 </document>

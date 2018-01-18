@@ -14,6 +14,21 @@
 		7A7C91881FF8E12100DBFA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91861FF8E12100DBFA94 /* LaunchScreen.storyboard */; };
 		7A7C91931FF8E12200DBFA94 /* scrollCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C91921FF8E12200DBFA94 /* scrollCardsTests.swift */; };
 		7A7C919E1FF8E12200DBFA94 /* scrollCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C919D1FF8E12200DBFA94 /* scrollCardsUITests.swift */; };
+		7A7C91B61FF8E44400DBFA94 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91AC1FF8E44200DBFA94 /* Lato-Black.ttf */; };
+		7A7C91B71FF8E44400DBFA94 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91AD1FF8E44300DBFA94 /* Lato-BoldItalic.ttf */; };
+		7A7C91B81FF8E44400DBFA94 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91AE1FF8E44300DBFA94 /* Lato-HairlineItalic.ttf */; };
+		7A7C91B91FF8E44400DBFA94 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91AF1FF8E44300DBFA94 /* Lato-Bold.ttf */; };
+		7A7C91BA1FF8E44400DBFA94 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91B01FF8E44300DBFA94 /* Lato-LightItalic.ttf */; };
+		7A7C91BB1FF8E44400DBFA94 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91B11FF8E44300DBFA94 /* Lato-Italic.ttf */; };
+		7A7C91BC1FF8E44400DBFA94 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91B21FF8E44300DBFA94 /* Lato-BlackItalic.ttf */; };
+		7A7C91BD1FF8E44400DBFA94 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91B31FF8E44400DBFA94 /* Lato-Regular.ttf */; };
+		7A7C91BE1FF8E44400DBFA94 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91B41FF8E44400DBFA94 /* Lato-Light.ttf */; };
+		7A7C91BF1FF8E44400DBFA94 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91B51FF8E44400DBFA94 /* Lato-Hairline.ttf */; };
+		7A7C91C01FF8E50300DBFA94 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91891FF8E12100DBFA94 /* Info.plist */; };
+		7A7C91C21FF8E71900DBFA94 /* ScrollCardCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C91C11FF8E71900DBFA94 /* ScrollCardCollectionViewLayout.swift */; };
+		7A7C91CB1FF8F42100DBFA94 /* ScrollCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C91C91FF8F42100DBFA94 /* ScrollCardCollectionViewCell.swift */; };
+		7A7C91CC1FF8F42100DBFA94 /* ScrollCardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C91CA1FF8F42100DBFA94 /* ScrollCardCollectionViewCell.xib */; };
+		7A7C91CF1FF8F53200DBFA94 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C91CE1FF8F53200DBFA94 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,20 @@
 		7A7C91991FF8E12200DBFA94 /* scrollCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7C919D1FF8E12200DBFA94 /* scrollCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollCardsUITests.swift; sourceTree = "<group>"; };
 		7A7C919F1FF8E12200DBFA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7C91AC1FF8E44200DBFA94 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		7A7C91AD1FF8E44300DBFA94 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7A7C91AE1FF8E44300DBFA94 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		7A7C91AF1FF8E44300DBFA94 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		7A7C91B01FF8E44300DBFA94 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		7A7C91B11FF8E44300DBFA94 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		7A7C91B21FF8E44300DBFA94 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7A7C91B31FF8E44400DBFA94 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		7A7C91B41FF8E44400DBFA94 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		7A7C91B51FF8E44400DBFA94 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		7A7C91C11FF8E71900DBFA94 /* ScrollCardCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCardCollectionViewLayout.swift; sourceTree = "<group>"; };
+		7A7C91C91FF8F42100DBFA94 /* ScrollCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		7A7C91CA1FF8F42100DBFA94 /* ScrollCardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollCardCollectionViewCell.xib; sourceTree = "<group>"; };
+		7A7C91CE1FF8F53200DBFA94 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +106,10 @@
 		7A7C91711FF8E12100DBFA94 = {
 			isa = PBXGroup;
 			children = (
+				7A7C91CD1FF8F52800DBFA94 /* Model */,
+				7A7C91C41FF8F3CD00DBFA94 /* CollectionViewLayout */,
+				7A7C91C31FF8F3BF00DBFA94 /* CollectionViewCells */,
+				7A7C91AB1FF8E43200DBFA94 /* Fonts */,
 				7A7C917C1FF8E12100DBFA94 /* scrollCards */,
 				7A7C91911FF8E12200DBFA94 /* scrollCardsTests */,
 				7A7C919C1FF8E12200DBFA94 /* scrollCardsUITests */,
@@ -123,6 +156,48 @@
 				7A7C919F1FF8E12200DBFA94 /* Info.plist */,
 			);
 			path = scrollCardsUITests;
+			sourceTree = "<group>";
+		};
+		7A7C91AB1FF8E43200DBFA94 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7A7C91AC1FF8E44200DBFA94 /* Lato-Black.ttf */,
+				7A7C91B21FF8E44300DBFA94 /* Lato-BlackItalic.ttf */,
+				7A7C91AF1FF8E44300DBFA94 /* Lato-Bold.ttf */,
+				7A7C91AD1FF8E44300DBFA94 /* Lato-BoldItalic.ttf */,
+				7A7C91B51FF8E44400DBFA94 /* Lato-Hairline.ttf */,
+				7A7C91AE1FF8E44300DBFA94 /* Lato-HairlineItalic.ttf */,
+				7A7C91B11FF8E44300DBFA94 /* Lato-Italic.ttf */,
+				7A7C91B41FF8E44400DBFA94 /* Lato-Light.ttf */,
+				7A7C91B01FF8E44300DBFA94 /* Lato-LightItalic.ttf */,
+				7A7C91B31FF8E44400DBFA94 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7A7C91C31FF8F3BF00DBFA94 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				7A7C91C91FF8F42100DBFA94 /* ScrollCardCollectionViewCell.swift */,
+				7A7C91CA1FF8F42100DBFA94 /* ScrollCardCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		7A7C91C41FF8F3CD00DBFA94 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7A7C91C11FF8E71900DBFA94 /* ScrollCardCollectionViewLayout.swift */,
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		7A7C91CD1FF8F52800DBFA94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A7C91CE1FF8F53200DBFA94 /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +307,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7C91BF1FF8E44400DBFA94 /* Lato-Hairline.ttf in Resources */,
+				7A7C91B91FF8E44400DBFA94 /* Lato-Bold.ttf in Resources */,
+				7A7C91CC1FF8F42100DBFA94 /* ScrollCardCollectionViewCell.xib in Resources */,
+				7A7C91B61FF8E44400DBFA94 /* Lato-Black.ttf in Resources */,
+				7A7C91BC1FF8E44400DBFA94 /* Lato-BlackItalic.ttf in Resources */,
+				7A7C91BE1FF8E44400DBFA94 /* Lato-Light.ttf in Resources */,
 				7A7C91881FF8E12100DBFA94 /* LaunchScreen.storyboard in Resources */,
+				7A7C91C01FF8E50300DBFA94 /* Info.plist in Resources */,
+				7A7C91BA1FF8E44400DBFA94 /* Lato-LightItalic.ttf in Resources */,
+				7A7C91B81FF8E44400DBFA94 /* Lato-HairlineItalic.ttf in Resources */,
 				7A7C91851FF8E12100DBFA94 /* Assets.xcassets in Resources */,
 				7A7C91831FF8E12100DBFA94 /* Main.storyboard in Resources */,
+				7A7C91BB1FF8E44400DBFA94 /* Lato-Italic.ttf in Resources */,
+				7A7C91B71FF8E44400DBFA94 /* Lato-BoldItalic.ttf in Resources */,
+				7A7C91BD1FF8E44400DBFA94 /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +347,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A7C91801FF8E12100DBFA94 /* ViewController.swift in Sources */,
+				7A7C91CB1FF8F42100DBFA94 /* ScrollCardCollectionViewCell.swift in Sources */,
 				7A7C917E1FF8E12100DBFA94 /* AppDelegate.swift in Sources */,
+				7A7C91C21FF8E71900DBFA94 /* ScrollCardCollectionViewLayout.swift in Sources */,
+				7A7C91CF1FF8F53200DBFA94 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9E9H5PF2D;
 				INFOPLIST_FILE = scrollCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webdevlopia.scrollCards;
@@ -441,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9E9H5PF2D;
 				INFOPLIST_FILE = scrollCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webdevlopia.scrollCards;
